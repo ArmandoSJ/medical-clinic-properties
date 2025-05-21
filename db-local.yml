@@ -4,7 +4,7 @@ db: h2
 
 spring:
   datasource:
-    url: jdbc:h2:file:~/medical_clinic_db
+    url: jdbc:h2:mem:medical_clinic_db
     username: test
     password: ""
     driver-class-name: org.h2.Driver
